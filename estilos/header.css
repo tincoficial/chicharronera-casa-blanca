@@ -34,7 +34,7 @@
     margin: -70px auto 20px; /* Margen negativo para que se solape ligeramente con el banner */
     
     background: var(--surface-color); 
-    border: 3px solid var(--bg-color); /* Borde grueso del mismo color de fondo para "separarlo" */
+    border: 1px solid var(--bg-color); /* Borde grueso del mismo color de fondo para "separarlo" */
     border-radius: 20px; 
     
     display: flex; 
