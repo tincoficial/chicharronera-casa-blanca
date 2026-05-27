@@ -17,26 +17,24 @@
     padding: 0 1.5rem; 
 }
 
-/* Estilo para el logo con efecto de cristal esmerilado y esquinas redondeadas */
 .logo { 
     width: 120px; 
     height: 120px; 
-  
-    border-radius: 16px; /* Cambiado de 50% a un valor menor para esquinas redondeadas */
+    border-radius: 16px; 
     margin: 0 auto 10px; 
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    font-size: 3.5rem; 
-    
-    overflow: hidden; /* Recorta la imagen siguiendo la nueva forma de las esquinas */
+    /* Elimina el overflow: hidden si esto está cortando los bordes del logo */
+    overflow: visible; 
+    background: transparent; /* O el color que desees */
 }
 
-/* Asegura que la imagen del logo se ajuste correctamente dentro del contenedor con esquinas redondeadas */
 .logo img {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    /* CAMBIO PRINCIPAL: 'contain' ajusta la imagen para que se vea toda sin recortar */
+    object-fit: contain; 
 }
 
 /* Estilo para el título del header con fuente elegante, tamaño grande y sombra para destacar sobre el fondo */
