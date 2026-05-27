@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "name": "Chicharrón Clásico",
+        "price": 150,
+        "description": [
+           "Nuestro Chicharrón Clásico es una porción individual de cerdo frito, caracterizada por su corteza crujiente y carne magra. Se entrega listo para el consumo.",
+           { "label": "Porción", "value": "1 persona" },
+           { "label": "Incluye", "value": "2 acompañamientos" },
+           { "label": "Preparación", "value": "15 minutos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Principales",
+        "badge": "Más vendido"
+    },
+    {
+        "id": 2,
+        "name": "Chifrito",
+        "price": 150,
+        "description": [
+            "Combinación tradicional de trozos de cerdo frito, frijoles tiernos, chicharrón y pico de gallo. Un platillo con frescura ácida y notas saladas, servido con chips de plátano.",
+           { "label": "Porción", "value": "1 persona" },
+           { "label": "Incluye", "value": "2 acompañamientos" },
+           { "label": "Preparación", "value": "15 minutos" }
+        ],
+        "image": "productos/chifrito.webp",
+        "category": "Principales",
+        "badge": ""
+    },
+    {
+        "id": 3,
+        "name": "Costillas BBQ",
+        "price": 220,
+        "description": [
+            "Costillas de cerdo bañadas en nuestra salsa barbacoa de la casa, cocinadas lentamente hasta que la carne se desprende fácilmente del hueso.",
+            { "label": "Porción", "value": "1 persona" },
+           { "label": "Incluye", "value": "2 acompañamientos" },
+           { "label": "Preparación", "value": "25 minutos" }
+        ],
+        "image": "productos/costillas-bbq.webp",
+        "category": "Platillos",
+        "badge": ""
+        },
+    
+    {
+        "id": 4,
+        "name": "Vigorón Mediano",
+        "price": 220,
+        "description": [
+            "Jamón, piña fresca, queso mozzarella y un toque de orégano.",
+            { "label": "Porción", "value": "1 persona" },
+            { "label": "Incluye", "value": "2 acompañamientos" },
+            { "label": "Preparación", "value": "15 minutos" }
+        ],
+        "image": "productos/vigoron.webp",
+        "category": "Platillos",
+        "badge": ""
+    },
+    {
+        "id": 5,
+        "name": "Combo Familiar",
+        "price": 650,
+        "description": [
+            "Disfruten nuestro excelente combo familiar:\n- 750gm de chicharrón de carne \n- 250gm de chicharrón de Panzada\n- 1 taza de Guacamole \n- 2 tazas de pico de gallo \n- 10 unidades de tortillas \n- 1/2 kg de Yuca Cocida \n- Limos y Refresco de 1,5lt ",
+            { "label": "Porción", "value": "4-5 personas" },
+            { "label": "Preparación", "value": "35 minutos" }
+        ],
+        "image": "productos/combo-familiar.webp",
+        "category": "Combos",
+        "badge": "Promoción"
+    },
+    {
+        "id": 6,
+        "name": "Té de limón con hierbabuena",
+        "price": 90,
+        "description": "Bebida refrescante de té de limón con un toque de hierbabuena, perfecta para acompañar nuestros platillos y combatir el calor.",
+        "image": "productos/te-limon.webp",
+        "category": "Bebidas",
+        "badge": "Nuevo"
+    },
+    {
+        "id": 7,
+        "name": "Fresco de Naranja",
+        "price": 60,
+        "description": "Bebida refrescante de jugo de naranja natural, ideal para acompañar nuestros platillos y brindar un sabor cítrico y dulce a tu comida.",
+        "image": "productos/fresco-naranja.webp",
+        "category": "Bebidas",
+        "badge": ""
+    },
+    {
+        "id": 8,
+        "name": "Coca Cola 1L",
+        "price": 30,
+        "description": "Refresco clásico de cola, con su sabor inconfundible y burbujeante, perfecto para acompañar nuestros platillos y brindar una experiencia refrescante a tu comida.",
+        "image": "productos/coca-cola-1lt.webp",
+        "category": "Bebidas",
+        "badge": ""
+    }
+]
