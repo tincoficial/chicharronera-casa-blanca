@@ -12,7 +12,7 @@
 /* Contenido del header (logo, título, descripción) */
 .header-content { 
     position: relative; 
-    margin-top: 30px; 
+    margin-top: 60px; 
     z-index: 2; 
     padding: 0 1.5rem; 
 }
@@ -234,6 +234,7 @@ a.info-badge.location-link svg {
     /* Reduce el título para que no fuerce el ancho de pantalla */
     .header-content h1 {
         font-size: 2rem !important; 
+        margin-top: 30px; 
     }
 
     /* Reduce un poco el logo en móviles */
