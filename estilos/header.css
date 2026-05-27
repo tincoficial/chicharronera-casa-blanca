@@ -79,6 +79,7 @@
     line-height: 1.6;
 }
 
+
 /* Contenedor para los badges de información (dirección, teléfono, redes sociales) con diseño flexible y centrado */
 /* Contenedor padre */
 .info-badges { 
@@ -98,6 +99,7 @@
     backdrop-filter: blur(8px);
     padding: 12px 20px;            /* Aumenté un poco el padding superior/inferior */
     border-radius: 20px; 
+    
     font-size: 0.9rem;             /* Ligeramente más grande para mejor lectura */
     color: var(--text-muted); 
     transition: var(--transition);
@@ -155,6 +157,26 @@ a.info-badge.location-link span {
     flex: 1;               /* Hace que el texto ocupe el espacio disponible */
 }
 
+.fixed-badge {
+    width: 320px !important;
+    height: auto;
+    min-height: 50px;
+    box-sizing: border-box;
+    display: inline-flex; 
+    
+    /* CAMBIOS AQUÍ PARA CENTRAR */
+    flex-direction: column;      /* Para que el horario se apile verticalmente */
+    justify-content: center;     /* Centra verticalmente */
+    align-items: center;         /* Centra horizontalmente */
+    text-align: center;          /* Asegura que el texto esté centrado */
+}
+
+@media (max-width: 767px) {
+    .fixed-badge {
+        width: 90% !important;
+        max-width: 320px;
+    }
+}
 
 /* Contenedor para los enlaces de redes sociales con diseño flexible y centrado */
 .social-links a { 
