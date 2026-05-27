@@ -249,7 +249,7 @@ COMPARITR ENLACE DEL CATALOGO (MODIFICAR)
 */
 async function compartirCatalogo(btn) {
     // Definimos tu URL fija
-    const url = "https://sabor-clandestino.netlify.app/";
+    const url = "https://tincoficial.github.io/chicharronera-casa-blanca/";
     
     const data = {
         title: 'Sabor Clandestino',
