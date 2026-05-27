@@ -12,7 +12,7 @@
 .banner { 
     height: 45vh; 
     min-height: 500px;
-    background: url('banner.jpg') center/cover no-repeat; 
+    background: url('estilos/banner.jpg') center/cover no-repeat; 
     position: relative; 
     
 }
