@@ -8,33 +8,56 @@
     padding-bottom: 3rem; 
 }
 
+/* Estilo para el banner con imagen de fondo y efecto de superposición */
+.banner {
+    width: 100%;
+    /* 16:9 es el estándar */
+    aspect-ratio: 16 / 9; 
+    background: url('banner.webp') center/cover no-repeat;
+    position: relative;
+    /* Esto ayuda a que el punto focal se mantenga bien */
+    background-position: center center; 
+}
+
 
 /* Contenido del header (logo, título, descripción) */
 .header-content { 
     position: relative; 
-    margin-top: 60px; 
+    margin-top: -80px; 
     z-index: 2; 
     padding: 0 1.5rem; 
 }
-
+/* Estilo del logo con efecto de elevación */
 .logo { 
-    width: 120px; 
-    height: 120px; 
-    border-radius: 16px; 
-    margin: 0 auto 10px; 
+    width: 140px; /* Un poco más grande para que tenga más presencia */
+    height: 140px; 
+    margin: -70px auto 20px; /* Margen negativo para que se solape ligeramente con el banner */
+    
+    background: var(--surface-color); 
+    border: 4px solid var(--bg-color); /* Borde grueso del mismo color de fondo para "separarlo" */
+    border-radius: 20px; 
+    
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    /* Elimina el overflow: hidden si esto está cortando los bordes del logo */
-    overflow: visible; 
-    background: transparent; /* O el color que desees */
+    
+    /* Sombra elegante para dar profundidad */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); 
+    
+    /* Pequeña transición para animaciones suaves */
+    transition: transform 0.3s ease;
+    overflow: hidden; 
+}
+
+/* Efecto al pasar el mouse por encima */
+.logo:hover {
+    transform: scale(1.05); /* El logo crece suavemente al tocarlo */
 }
 
 .logo img {
     width: 100%;
     height: 100%;
-    /* CAMBIO PRINCIPAL: 'contain' ajusta la imagen para que se vea toda sin recortar */
-    object-fit: contain; 
+    object-fit: contain; /* Asegura que el logo se vea completo */
 }
 
 /* Estilo para el título del header con fuente elegante, tamaño grande y sombra para destacar sobre el fondo */
@@ -226,31 +249,3 @@ a.info-badge.location-link svg {
     margin: 20px 0;
 }
 
-
-
-@media (max-width: 767px) {
-    /* Reduce el título para que no fuerce el ancho de pantalla */
-    .header-content h1 {
-        font-size: 2rem !important; 
-        margin-top: 30px; 
-    }
-
-    /* Reduce un poco el logo en móviles */
-    .logo {
-        width: 100px;
-        height: 100px;
-    }
-
-    /* Asegura que los badges no se desborden si el texto es largo */
-    .info-badges {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-    
-    .info-badge, a.info-badge {
-        width: 90%; /* Asegura que no superen el ancho de la pantalla */
-        text-align: center;
-        align-items: center;
-    }
-}
