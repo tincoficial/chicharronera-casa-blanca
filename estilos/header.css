@@ -244,33 +244,3 @@ a.info-badge.location-link svg {
     margin: 20px 0;
 }
 
-
-
-/* Corrección para móviles */
-@media (max-width: 767px) {
-    .header-content {
-        margin-top: -40px; /* Reducimos el margen negativo en móvil */
-        padding: 0 1rem;   /* Padding más ajustado para aprovechar el ancho */
-    }
-
-    .header-content h1 {
-        font-size: 2.2rem; /* Título más pequeño para que no se desborde */
-    }
-
-    .main-header {
-        padding-bottom: 2rem;
-    }
-}
-
-/* Seguridad general */
-.main-header, .header-content {
-    max-width: 100%;
-    overflow-x: hidden; /* Evita que nada sobresalga */
-}
-
-/* Asegurar que las imágenes dentro del header no expandan el contenedor */
-.logo img {
-    max-width: 100%;
-    height: auto;
-}
-
