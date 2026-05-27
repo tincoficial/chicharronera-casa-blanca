@@ -249,3 +249,30 @@ a.info-badge.location-link svg {
     margin: 20px 0;
 }
 
+
+
+@media (max-width: 767px) {
+    /* Reduce el título para que no fuerce el ancho de pantalla */
+    .header-content h1 {
+        font-size: 2rem !important; 
+    }
+
+    /* Reduce un poco el logo en móviles */
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Asegura que los badges no se desborden si el texto es largo */
+    .info-badges {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .info-badge, a.info-badge {
+        width: 90%; /* Asegura que no superen el ancho de la pantalla */
+        text-align: center;
+        align-items: center;
+    }
+}
