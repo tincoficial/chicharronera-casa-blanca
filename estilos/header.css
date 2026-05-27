@@ -95,7 +95,6 @@
 /* Modifica este bloque completo */
 .info-badge, a.info-badge {
     background: var(--surface-glass); 
-    border: var(--border-glass);
     backdrop-filter: blur(8px);
     padding: 12px 20px;            /* Aumenté un poco el padding superior/inferior */
     border-radius: 20px; 
