@@ -131,15 +131,28 @@ a.info-badge:hover {
 /* 1. Asegura que el enlace sea un flex horizontal */
 a.info-badge.location-link {
     display: inline-flex;
-    flex-direction: row;        /* CAMBIO: Esto pone el icono y el texto en fila */
-    align-items: center;        /* Alinea el icono y el texto verticalmente al centro */
+    flex-direction: row; 
+    align-items: center; 
     text-align: left;
+    
+    /* ANCHO FIJO: Puedes ajustar este valor según necesites (ej. 300px) */
+    width: 320px; 
+    
+    /* IMPORTANTE: Permite que el texto crezca hacia abajo */
+    height: auto; 
+    min-height: 50px; /* Altura mínima para que se vea bien aunque sea corto */
 }
 
 /* 2. Ajusta el contenedor del icono para darle espacio */
 a.info-badge.location-link svg {
     margin-right: 8px;          /* Espacio entre el icono y el texto */
     flex-shrink: 0;             /* Evita que el icono se aplaste si el texto es muy largo */
+}
+
+a.info-badge.location-link span {
+    word-wrap: break-word; /* Rompe palabras largas si es necesario */
+    white-space: normal;   /* Permite múltiples líneas */
+    flex: 1;               /* Hace que el texto ocupe el espacio disponible */
 }
 
 
