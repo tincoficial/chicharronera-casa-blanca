@@ -8,27 +8,11 @@
     padding-bottom: 3rem; 
 }
 
-/* Estilo para el banner con imagen de fondo y efecto de superposición */
-.banner { 
-    height: 45vh; 
-    min-height: 500px;
-    background: url('banner.webp') center/cover no-repeat; 
-    position: relative; 
-    
-}
-
-/* Capa de superposición para mejorar la legibilidad del texto sobre la imagen */
-.banner::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to bottom, rgba(10,10,12,0.2) 40%, var(--bg-color) 80%);
-}
 
 /* Contenido del header (logo, título, descripción) */
 .header-content { 
     position: relative; 
-    margin-top: -80px; 
+    margin-top: 30px; 
     z-index: 2; 
     padding: 0 1.5rem; 
 }
@@ -245,6 +229,7 @@ a.info-badge.location-link svg {
 }
 
 
+
 @media (max-width: 767px) {
     /* Reduce el título para que no fuerce el ancho de pantalla */
     .header-content h1 {
@@ -270,4 +255,3 @@ a.info-badge.location-link svg {
         align-items: center;
     }
 }
-
