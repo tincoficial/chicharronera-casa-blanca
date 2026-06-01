@@ -1,99 +1,862 @@
 [
     {
         "id": 1,
-        "name": "Chicharrón Clásico",
-        "price": 150,
+        "name": "Chicharrón de Panzada",
+        "price": 400,
         "description": [
-           "Nuestro Chicharrón Clásico es una porción individual de cerdo frito, caracterizada por su corteza crujiente y carne magra. Se entrega listo para el consumo.",
-           { "label": "Porción", "value": "1 persona" },
-           { "label": "Incluye", "value": "2 acompañamientos" },
-           { "label": "Preparación", "value": "15 minutos" }
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
         ],
         "image": "productos/chicharron.webp",
-        "category": "Principales",
+        "category": "Por Libra",
         "badge": "Más vendido"
     },
     {
         "id": 2,
-        "name": "Chifrito",
-        "price": 150,
+        "name": "Carne Adobada",
+        "price": 300,
         "description": [
-            "Combinación tradicional de trozos de cerdo frito, frijoles tiernos, chicharrón y pico de gallo. Un platillo con frescura ácida y notas saladas, servido con chips de plátano.",
-           { "label": "Porción", "value": "1 persona" },
-           { "label": "Incluye", "value": "2 acompañamientos" },
-           { "label": "Preparación", "value": "15 minutos" }
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/chifrito.webp",
-        "category": "Principales",
+        "image": "productos/chicharron.webp",
+        "category": "Por Libra",
         "badge": ""
     },
     {
         "id": 3,
-        "name": "Costillas BBQ",
-        "price": 220,
+        "name": "Frito de Carne",
+        "price": 300,
         "description": [
-            "Costillas de cerdo bañadas en nuestra salsa barbacoa de la casa, cocinadas lentamente hasta que la carne se desprende fácilmente del hueso.",
-            { "label": "Porción", "value": "1 persona" },
-           { "label": "Incluye", "value": "2 acompañamientos" },
-           { "label": "Preparación", "value": "25 minutos" }
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/costillas-bbq.webp",
-        "category": "Platillos",
+        "image": "productos/chicharron.webp",
+        "category": "Por Libra",
         "badge": ""
-        },
-    
+    },
     {
         "id": 4,
-        "name": "Vigorón Mediano",
-        "price": 220,
+        "name": "Chicharrón de Costilla",
+        "price": 380,
         "description": [
-            "Jamón, piña fresca, queso mozzarella y un toque de orégano.",
-            { "label": "Porción", "value": "1 persona" },
-            { "label": "Incluye", "value": "2 acompañamientos" },
-            { "label": "Preparación", "value": "15 minutos" }
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/vigoron.webp",
-        "category": "Platillos",
+        "image": "productos/chicharron.webp",
+        "category": "Por Libra",
         "badge": ""
     },
     {
         "id": 5,
-        "name": "Combo Familiar",
-        "price": 650,
+        "name": "Chicharrón de Panzada",
+        "price": 240,
         "description": [
-            "Disfruten nuestro excelente combo familiar:\n- 750gm de chicharrón de carne \n- 250gm de chicharrón de Panzada\n- 1 taza de Guacamole \n- 2 tazas de pico de gallo \n- 10 unidades de tortillas \n- 1/2 kg de Yuca Cocida \n- Limos y Refresco de 1,5lt ",
-            { "label": "Porción", "value": "4-5 personas" },
-            { "label": "Preparación", "value": "35 minutos" }
+           "",
+           { "label": "Incluye", "value": "2 acompañamientos" }
         ],
-        "image": "productos/combo-familiar.webp",
-        "category": "Combos",
-        "badge": "Promoción"
+        "image": "productos/chicharron.webp",
+        "category": "Platillos",
+        "badge": ""
     },
     {
         "id": 6,
-        "name": "Té de limón con hierbabuena",
-        "price": 90,
-        "description": "Bebida refrescante de té de limón con un toque de hierbabuena, perfecta para acompañar nuestros platillos y combatir el calor.",
-        "image": "productos/te-limon.webp",
-        "category": "Bebidas",
-        "badge": "Nuevo"
+        "name": "Frito de carne o adobado",
+        "price": 220,
+        "description": [
+           "",
+           { "label": "Incluye", "value": "2 acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Platillos",
+        "badge": ""
     },
     {
         "id": 7,
-        "name": "Fresco de Naranja",
-        "price": 60,
-        "description": "Bebida refrescante de jugo de naranja natural, ideal para acompañar nuestros platillos y brindar un sabor cítrico y dulce a tu comida.",
-        "image": "productos/fresco-naranja.webp",
-        "category": "Bebidas",
+        "name": "Frito de carne bañado en salsa favorita",
+        "price": 240,
+        "description": [
+           "",
+           { "label": "Incluye", "value": "2 acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Platillos",
         "badge": ""
     },
     {
         "id": 8,
-        "name": "Coca Cola 1L",
-        "price": 30,
-        "description": "Refresco clásico de cola, con su sabor inconfundible y burbujeante, perfecto para acompañar nuestros platillos y brindar una experiencia refrescante a tu comida.",
-        "image": "productos/coca-cola-1lt.webp",
+        "name": "Chicharrón de Costilla",
+        "price": 250,
+        "description": [
+           "",
+           { "label": "Incluye", "value": "2 acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Platillos",
+        "badge": ""
+    },
+    {
+        "id": 9,
+        "name": "Mixto de Chicharrón",
+        "price": 350,
+        "description": [
+           "",
+           { "label": "Incluye", "value": "2 acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Platillos",
+        "badge": ""
+    },
+    {
+        "id": 10,
+        "name": "Yuca cocida",
+        "price": 50,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 11,
+        "name": "Yuca frita",
+        "price": 50,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 12,
+        "name": "Salsa BBQ",
+        "price": 40,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 13,
+        "name": "Salsa Buffalo",
+        "price": 40,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 14,
+        "name": "Salsa Mostaza Miel",
+        "price": 40,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 15,
+        "name": "Tortilla",
+        "price": 10,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 16,
+        "name": "Tostones",
+        "price": 50,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 17,
+        "name": "Pico de gallo",
+        "price": 40,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 18,
+        "name": "Gallo Pinto",
+        "price": 50,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 19,
+        "name": "Papas salteadas",
+        "price": 50,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 20,
+        "name": "Salsa verde especial de la casa",
+        "price": 50,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 21,
+        "name": "Rebanadas de plátano verde",
+        "price": 40,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 22,
+        "name": "Maduro",
+        "price": 40,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 23,
+        "name": "Maduro gratinado con queso",
+        "price": 70,
+        "description": [
+           "Cuenta como 2 acompañamientos"
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 24,
+        "name": "Guacamole",
+        "price": 50,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 25,
+        "name": "Frijoles Molidos",
+        "price": 40,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 26,
+        "name": "Chips de tortilla",
+        "price": 40,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 27,
+        "name": "Ensalada Mixta",
+        "price": 50,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 28,
+        "name": "Queso fresco",
+        "price": 40,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 29,
+        "name": "Queso frito",
+        "price": 40,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 30,
+        "name": "Arroz blanco",
+        "price": 40,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Acompañamientos",
+        "badge": ""
+    },
+    {
+        "id": 31,
+        "name": "Pollo a la plancha",
+        "price": 300,
+        "description": [
+           "",
+           { "label": "Incluye", "value": "2 acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Antojitos",
+        "badge": ""
+    },
+    {
+        "id": 32,
+        "name": "Pollo empanizado",
+        "price": 300,
+        "description": [
+           "",
+           { "label": "Incluye", "value": "2 acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Antojitos",
+        "badge": ""
+    },
+    {
+        "id": 33,
+        "name": "Pollo jalapeño",
+        "price": 330,
+        "description": [
+          "",
+           { "label": "Incluye", "value": "2 acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Antojitos",
+        "badge": ""
+    },
+    {
+        "id": 34,
+        "name": "Pollo con hongos",
+        "price": 330,
+        "description": [
+           "",
+           { "label": "Incluye", "value": "2 acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Antojitos",
+        "badge": ""
+    },
+    {
+        "id": 35,
+        "name": "Fajitas a la plancha",
+        "price": 300,
+        "description": [
+           "",
+           { "label": "Incluye", "value": "2 acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Antojitos",
+        "badge": ""
+    },
+    {
+        "id": 36,
+        "name": "Fajitas empanizadas",
+        "price": 300,
+        "description": [
+           "",
+           { "label": "Incluye", "value": "2 acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Antojitos",
+        "badge": ""
+    },
+   {
+        "id": 37,
+        "name": "Fajitas jalapeño",
+        "price": 300,
+        "description": [
+           "",
+           { "label": "Incluye", "value": "2 acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Antojitos",
+        "badge": ""
+    },
+   {
+        "id": 38,
+        "name": "Rib eye a la parrilla en salsa hongos y bacon",
+        "price": 550,
+        "description": [
+           "",
+           { "label": "Incluye", "value": "2 acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Antojitos",
+        "badge": ""
+    },
+   {
+        "id": 39,
+        "name": "Rib eye a la parrilla",
+        "price": 490,
+        "description": [
+           "",
+           { "label": "Incluye", "value": "2 acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Antojitos",
+        "badge": ""
+    },
+   {
+        "id": 40,
+        "name": "Mar y tierra deluxe",
+        "price": 550,
+        "description": [
+          "",
+           { "label": "Incluye", "value": "2 acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Antojitos",
+        "badge": ""
+    },
+   {
+        "id": 41,
+        "name": "Hamburguesa sencilla",
+        "price": 200,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 42,
+        "name": "Hamburguesa con jamón y queso",
+        "price": 230,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 43,
+        "name": "Hamburguesa especial",
+        "price": 300,
+        "description": [
+          "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 44,
+        "name": "Nachos con pollo",
+        "price": 250,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 45,
+        "name": "Nachos con carne",
+        "price": 250,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 46,
+        "name": "Nachos con chicharrón",
+        "price": 250,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 47,
+        "name": "Nachos mixtos",
+        "price": 300,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 48,
+        "name": "Arroz con camarones",
+        "price": 330,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 49,
+        "name": "Tacos de birria",
+        "price": 290,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 50,
+        "name": "Salchipapas",
+        "price": 190,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 51,
+        "name": "Salchipapicarne con frito",
+        "price": 220,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 52,
+        "name": "Salchipapicarne con res",
+        "price": 250,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 53,
+        "name": "Chifrito",
+        "price": 230,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 54,
+        "name": "Chifrito estilo Nicaragua",
+        "price": 230,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 55,
+        "name": "Patitas de cerdo",
+        "price": 150,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 56,
+        "name": "Cabeza de cerdo",
+        "price": 150,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 57,
+        "name": "Vigorón",
+        "price": 230,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 58,
+        "name": "Vigorón mixto",
+        "price": 230,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 59,
+        "name": "Vigorón frito especial",
+        "price": 250,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 60,
+        "name": "Vigorón frito especial mixto",
+        "price": 300,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 61,
+        "name": "Arroz frito de la casa",
+        "price": 220,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 62,
+        "name": "Arroz frito con extra camarón",
+        "price": 300,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 63,
+        "name": "Señor Patacón",
+        "price": 220,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 64,
+        "name": "Maduro casa blanca",
+        "price": 200,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+
+   {
+        "id": 65,
+        "name": "Patamix casa blanca",
+        "price": 280,
+        "description": [
+           "",
+           { "label": "No Incluye", "value": "acompañamientos" }
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Especialidades",
+        "badge": ""
+    },
+   {
+        "id": 66,
+        "name": "Mix de chicharrón",
+        "price": 900,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Surtido Familiar",
+        "badge": ""
+    },
+   {
+        "id": 67,
+        "name": "Mix de casa blanca",
+        "price": 1250,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Surtido Familiar",
+        "badge": ""
+    },
+   {
+        "id": 68,
+        "name": "Gaseosas 500 ml",
+        "price": 50,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Bebidas",
+        "badge": ""
+    },
+   {
+        "id": 69,
+        "name": "Gaseosa familiar 2lt",
+        "price": 95,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Bebidas",
+        "badge": ""
+    },
+   {
+        "id": 70,
+        "name": "Limonada",
+        "price": 70,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Bebidas",
+        "badge": ""
+    },
+   {
+        "id": 71,
+        "name": "Guayaba",
+        "price": 70,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Bebidas",
+        "badge": ""
+    },
+   {
+        "id": 72,
+        "name": "Jamaica",
+        "price": 70,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Bebidas",
+        "badge": ""
+    },
+   {
+        "id": 73,
+        "name": "Chia con Tamarindo",
+        "price": 70,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
+        "category": "Bebidas",
+        "badge": ""
+    },
+   {
+        "id": 74,
+        "name": "Naranja con zanahoria",
+        "price": 70,
+        "description": [
+           ""
+        ],
+        "image": "productos/chicharron.webp",
         "category": "Bebidas",
         "badge": ""
     }
+
 ]
