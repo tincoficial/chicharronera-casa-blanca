@@ -454,7 +454,7 @@
           "",
            { "label": "Incluye", "value": "2 acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/mar y tierra deluxe.webp",
         "category": "Antojitos",
         "badge": ""
     },
@@ -742,7 +742,7 @@
            "",
            { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/maduro-casa-blanca.webp",
         "category": "Especialidades",
         "badge": ""
     },
@@ -755,7 +755,7 @@
            "",
            { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/patamix-casa-blanca.webp",
         "category": "Especialidades",
         "badge": ""
     },
