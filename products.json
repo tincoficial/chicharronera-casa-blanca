@@ -31,7 +31,7 @@
            "",
            { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/frito-de-carne.jpeg",
         "category": "Por Libra",
         "badge": ""
     },
@@ -43,7 +43,7 @@
            "",
            { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/chicharron-de-costilla.jpeg",
         "category": "Por Libra",
         "badge": ""
     },
@@ -55,7 +55,7 @@
            "",
            { "label": "Incluye", "value": "2 acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/plato-panzada.jpeg",
         "category": "Platillos",
         "badge": ""
     },
@@ -67,7 +67,7 @@
            "",
            { "label": "Incluye", "value": "2 acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/frito.jpeg",
         "category": "Platillos",
         "badge": ""
     },
@@ -79,7 +79,7 @@
            "",
            { "label": "Incluye", "value": "2 acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/frito-salsa-bufalo.jpeg",
         "category": "Platillos",
         "badge": ""
     },
@@ -91,7 +91,7 @@
            "",
            { "label": "Incluye", "value": "2 acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/costilla.jpeg",
         "category": "Platillos",
         "badge": ""
     },
@@ -514,7 +514,7 @@
            "",
            { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/nachos.jpeg",
         "category": "Especialidades",
         "badge": ""
     },
@@ -574,7 +574,7 @@
            "",
            { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/salchipapas.jpeg",
         "category": "Especialidades",
         "badge": ""
     },
@@ -610,7 +610,7 @@
            "",
            { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/chifrito.jpeg",
         "category": "Especialidades",
         "badge": ""
     },
@@ -622,7 +622,7 @@
            "",
            { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/Chifrito-estilo-nicaragua.jpeg",
         "category": "Especialidades",
         "badge": ""
     },
@@ -634,7 +634,7 @@
            "",
            { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/cpatitas-de-cerdo.jpeg",
         "category": "Especialidades",
         "badge": ""
     },
@@ -658,7 +658,7 @@
            "",
            { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/vigoron.jpeg",
         "category": "Especialidades",
         "badge": ""
     },
@@ -670,7 +670,7 @@
            "",
            { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/vigoron-mixto.jpeg",
         "category": "Especialidades",
         "badge": ""
     },
@@ -682,7 +682,7 @@
            "",
            { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/vigoron-frito-especial.jpeg",
         "category": "Especialidades",
         "badge": ""
     },
@@ -706,7 +706,7 @@
            "",
            { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/arroz-frito-especia-de-casa.jpeg",
         "category": "Especialidades",
         "badge": ""
     },
@@ -718,7 +718,7 @@
            "",
            { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/arroz-camarones.jpeg",
         "category": "Especialidades",
         "badge": ""
     },
@@ -730,7 +730,7 @@
            "",
            { "label": "No Incluye", "value": "acompañamientos" }
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/señor-patacon.jpeg",
         "category": "Especialidades",
         "badge": ""
     },
@@ -777,7 +777,7 @@
         "description": [
            ""
         ],
-        "image": "productos/chicharron.webp",
+        "image": "productos/mixto-familiar.jpeg",
         "category": "Surtido Familiar",
         "badge": ""
     },
@@ -856,6 +856,17 @@
         ],
         "image": "productos/chicharron.webp",
         "category": "Bebidas",
+        "badge": ""
+    },
+   {
+        "id": 75,
+        "name": "Desayuno",
+        "price": 190,
+        "description": [
+           ""
+        ],
+        "image": "productos/Desayuno.jpeg",
+        "category": "Antojitos",
         "badge": ""
     }
 
