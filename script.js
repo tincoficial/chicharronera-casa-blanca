@@ -249,11 +249,11 @@ COMPARITR ENLACE DEL CATALOGO (MODIFICAR)
 */
 async function compartirCatalogo(btn) {
     // Definimos tu URL fija
-    const url = "https://tincoficial.github.io/chicharronera-casa-blanca/";
+    const url = "https://sabor-clandestino.netlify.app/";
     
     const data = {
-        title: 'Sabor Clandestino',
-        text: '¡Mira nuestro catálogo de hamburguesas y pizzas!',
+        title: 'Chicharronera Casa Blanca',
+        text: '¡Mira nuestro catálogo!',
         url: url
     };
 
@@ -285,8 +285,8 @@ async function compartirProducto(btn) {
     const urlCompartible = `${window.location.origin}${window.location.pathname}?producto=${encodeURIComponent(nombre)}`;
     
     const data = {
-        title: 'Sabor Clandestino',
-        text: `¡Tienes que probar la ${nombre}!`,
+        title: 'Chicharronera Casa Blanca',
+        text: `¡Tienes que probar ${nombre}!`,
         url: urlCompartible
     };
 
